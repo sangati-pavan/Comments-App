@@ -1,0 +1,89 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.name {
+  margin-bottom: 20px;
+  padding: 8px;
+}
+
+.description {
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.paragraph {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  background-color: #0284c7;
+  border-radius: 10px;
+  border: none;
+  padding: 8px;
+  margin-right: 230px;
+}
+
+.image {
+  height: 250px;
+  width: 400px;
+  margin-top: 120px;
+  margin-left: 70px;
+}
+
+.line {
+  border: 1px solid #dee0e3;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.heading {
+  color: #000000;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 320px;
+}
+
+.count {
+  background-color: #0284c7;
+  color: #ffffff;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 8px;
+}
+
+comments-list {
+  margin-left: 320px;
+}
